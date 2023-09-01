@@ -1,2 +1,21 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import AudioPlayer from '$lib/components/audio/AudioPlayer.svelte';
+</script>
+
+<header>
+	<h1>Audioplayer Snippet</h1>
+</header>
+<main>
+	<AudioPlayer />
+</main>
+
+<style lang="scss">
+	h1 {
+		text-align: center;
+	}
+	main {
+		width: 95vw;
+		max-width: 1200px;
+		margin: auto;
+	}
+</style>
